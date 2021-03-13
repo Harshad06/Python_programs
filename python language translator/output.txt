@@ -1,0 +1,10 @@
+
+print(output)---
+PS C:\Joy\python language translator> python .\main.py
+Translated(src=en, dest=fr, text=Bonjour Joy. J'adore la programmation python., pronunciation=[[]], extra_data="{'translat...")
+
+
+print(output.text)---
+PS C:\Joy\python language translator> python .\main.py
+Bonjour Joy. J'adore la programmation python.
+
