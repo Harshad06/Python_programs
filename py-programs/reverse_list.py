@@ -19,3 +19,14 @@ a = my_list.reverse()
 print(my_list)
 
 """
+'''
+s = "mom"
+rev = "".join(reversed(s))
+print(s)
+print(rev)
+
+
+Only printing "reversed(s)" will give --- <reversed object at 0x01C1E700>
+but rev = "".join(reversed(s))  will give string.
+
+'''
