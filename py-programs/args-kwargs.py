@@ -1,6 +1,6 @@
 
 # args/kwargs allows python functions to accept
-# arbitary/unspecified amt of arguments & keyword arguments
+# arbitary/unspecified amount of arguments & keyword arguments.
 
 # Arguments
 def print_args(*args):
