@@ -11,3 +11,6 @@ print(b.shape)
 
 # do not use a.shape() --- parenthesis 
 # use as a.shape only
+
+
+# Reshape() doesn't change shape of data unlike resize()
