@@ -1,4 +1,4 @@
-
+"""
 # To print 10 even no.s
 l1 = [2*e for e in range(1,11)]
 print(l1)
@@ -14,3 +14,15 @@ fruits = ["apple", "banana", "kiwi", "orange", "guava", "chikoo","strawberry"]
 
 f = [x for x in fruits if "a" in x]
 print(f)
+"""
+
+n=[4,3,2,1]
+
+# MAP
+list_01 = [x**2 for x in n]
+print(list_01)
+
+# FILTER
+list_02 = [x for x in n if x>2]
+print(list_02)
+
