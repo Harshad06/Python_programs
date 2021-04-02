@@ -11,7 +11,5 @@ print(student.find_min(20))
 
 
 # @static method decorator
-# Static method is used to call function/property without 
-# instantiating the class first.
-# 
-#  Static methods can also be accessed via class instances/or objects.
+# Static method is used to call function/property without instantiating the class first.
+# Static methods can also be accessed via class instances/or objects.
