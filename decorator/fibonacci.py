@@ -2,7 +2,7 @@
 # A simple generator for Fibonacci Numbers
 def fibonacci(limit):
     # Initialize first two Fibonacci Numbers 
-    a , b = 0, 1    
+    a, b = 0, 1    
 
     # One by one yield next Fibonacci Number
     while(a<limit):
@@ -29,4 +29,8 @@ while True:
         fib_list.append(next(it))
     except StopIteration:
         break
-print(fib_list)
+ 
+ print(fib_list)
+
+
+# So a generator function returns an generator object that is iterable, i.e., can be used as an Iterators .
