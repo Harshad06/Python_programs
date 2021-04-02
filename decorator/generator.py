@@ -7,12 +7,13 @@ def even_nos(n):
         n-=1
 
 it = even_nos(10)
-even_list = []
+even_list = []      # Empty list
 while True:
     try:
         even_list.append(next(it))
     except StopIteration:
         break
+
 print(even_list)
 
 
