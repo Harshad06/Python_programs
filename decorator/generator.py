@@ -14,3 +14,11 @@ while True:
     except StopIteration:
         break
 print(even_list)
+
+
+
+'''
+Generator functions return a generator object. 
+Generator objects are used either by calling the next method on the generator object or 
+    using the generator object in a “for in” loop 
+'''
