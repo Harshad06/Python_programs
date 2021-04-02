@@ -1,5 +1,5 @@
 
-class student():
+class Student():
     def __init__(self,mark):
         self.mark=mark
     
@@ -7,7 +7,7 @@ class student():
     def find_min(mark):
         return min(mark,100)
 
-print(student.find_min(20))
+print(Student.find_min(20))
 
 
 # @static method decorator
