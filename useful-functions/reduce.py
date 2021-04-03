@@ -10,7 +10,7 @@
 import functools
 
 n = [4,3,2,1]
-# print(functools.reduce(lambda x,y:x*y, n))
+print(functools.reduce(lambda x,y:x*y, n))
 
 """
 import functools
