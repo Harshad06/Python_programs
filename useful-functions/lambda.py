@@ -12,4 +12,3 @@ print(f1(5))
 # max of x & y
 max = lambda x,y: x if x>y else y
 print(max(8,5))
-

@@ -17,6 +17,6 @@ import functools
 import operator
 
 n = [4,3,2,1]
-print(functools.reduce(operator.mul,n))
+print(functools.reduce(operator.mul, n))
 
 """
