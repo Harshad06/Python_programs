@@ -3,9 +3,9 @@ def isPalindrome(s):
     return s == s[::-1]
 
 s = input(str("Enter the string : "))
-res = isPalindrome(s)
+result = isPalindrome(s)
 
-if res:
+if result:
     print("Yes")
 else:
     print("No")
