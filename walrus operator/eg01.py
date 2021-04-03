@@ -20,7 +20,7 @@ print(l1)
 # but here cube(x) is used twice
 # hence to use it once --- use walrus operator
 
-print([y for x in num_list if ( y:=cube(x) ) < 30 ])
+print([y for x in num_list if ( y:=cube(x) ) < 130 ])
 
 #----------------------
 

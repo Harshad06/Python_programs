@@ -16,6 +16,7 @@ print(a.shape)
 print("------------")
 
 # If we use "a.resize" --> It will change the original array and will resize it.
+# It will also adjust the array as per given new size.
 a.resize((5,2))
 print(a)
 print(a.shape)
