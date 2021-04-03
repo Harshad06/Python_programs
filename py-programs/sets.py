@@ -27,7 +27,7 @@ print(first | second)       # o/p : {1, 2, 3, 4, 5}
 print(first & second)       # o/p : {1}
 
 # Difference in sets-
-print(first - second)       # o/p : {2, 3, 4} - first set has these additional numbers which set 2 doesn't.
+print(first - second)       # o/p : {2, 3, 4} - first set has these additional elements which set 2 doesn't.
 
 # Caret in sets:-
 print(first ^ second)      # o/p : {2,3,4,5} - elements in both sets but not common ones
