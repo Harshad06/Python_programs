@@ -7,6 +7,6 @@ def shout(text):
 
 print(shout('Hello'))
 
-yell = shout
+yell = shout    # function being treated as a object
 
 print(yell('Hellooo'))
