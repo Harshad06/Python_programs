@@ -13,7 +13,7 @@ def cube(num):
     return num**3
 
 num_list = [1,2,3,4,5]
-
+    
 l1 = [cube(x) for x in num_list if cube(x) < 20] 
 print(l1)
 
