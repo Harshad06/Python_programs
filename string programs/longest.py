@@ -23,7 +23,7 @@ def longest(seq):
         prev_char = current
     
     return {max_char:max_count}
-
+# Driver Code
 if __name__ == "__main__":
     seq = "ABAACDDDBBA"
     print(longest(seq))
