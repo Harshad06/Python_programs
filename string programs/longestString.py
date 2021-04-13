@@ -11,10 +11,10 @@ print("The original list : " + str(test_list))
 
 # Longest String in list using loop
 max_len = -1
-for e in test_list:
-	if len(e) > max_len:
-		max_len = len(e)
-		res = e
+for element in test_list:
+	if len(element) > max_len:
+		max_len = len(element)
+		result = element
 
 # printing result
-print("Maximum length string is : " + res)
+print("Maximum length string is : " + result)
