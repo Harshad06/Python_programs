@@ -1,3 +1,6 @@
+
+# A shallow copy creates a new object which stores the reference of the original elements.
+
 import copy
 
 old_list = [[1, 1, 1], [2, 2, 2], [3, 3, 3]]
@@ -9,3 +12,4 @@ old_list[1][1] = 'AA'
 
 print("Old list:", old_list)
 print("New list:", new_list)
+

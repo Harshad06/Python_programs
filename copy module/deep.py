@@ -1,4 +1,6 @@
 
+# A deep copy creates a new object and recursively adds the copies of nested objects present in the original elements.
+
 import copy
 
 old_list = [[1, 1, 1], [2, 2, 2], [3, 3, 3]]
