@@ -6,8 +6,8 @@ f = lambda x,y : x**y
 print(f(2,2))
 
 # Factorial
-f1 = lambda n: 1 if n==0 else n*[f1(n-1)]
-print(f1(5))
+f = lambda n: 1 if n==0 else n*f(n-1)
+print(f(5))
 
 # max of x & y
 max = lambda x,y: x if x>y else y

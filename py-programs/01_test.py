@@ -1,5 +1,5 @@
 
-# print(r"\nhello")
+#print(r"\nhello")
 
 '''
 ex = "snow flake"
@@ -28,6 +28,7 @@ print('a'.maketrans('ABC','123'))
 print('b'.maketrans('ABC','123'))
 print('x'.maketrans('DEF','123'))
 print('x'.maketrans('DEF','456'))
+print('a'.maketrans('abc','123'))
 '''
 
 '''
@@ -125,8 +126,7 @@ print("%f"%x)       #56.236000
 print("%d"%x)       #56
 '''
 
-
-#print("%-ns"%S)  # to add a 'n' blank space after a given string S
+# print("%-ns"%S)  # to add a 'n' blank space after a given string S
 
 '''
 i=2
@@ -150,11 +150,11 @@ for i in range(float('inf')):
 # TypeError: 'float' object cannot be interpreted as an integer
 '''
 
-#print(0.1 + 0.2 == 0.3)
+#print(0.1 + 0.2 == 0.3)  # False
 '''
-print(~4)
-print(~~~~~~5)
-print(~~~~~~~5)
+print(~4)       # -5
+print(~~~~~~5)  # 5
+print(~~~~~~~5) #-6
 '''
 '''
 a=3
