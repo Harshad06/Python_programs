@@ -30,7 +30,7 @@ while True:
     except StopIteration:
         break
  
- print(fib_list)
+print(fib_list)
 
 
 # So a generator function returns an generator object that is iterable, i.e., can be used as an Iterators .

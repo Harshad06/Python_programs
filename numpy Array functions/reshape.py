@@ -14,3 +14,9 @@ print(b.shape)
 
 
 # Reshape() doesn't change shape of data unlike resize()
+
+
+'''
+x = np.linspace(0,10,5)
+print(x)
+'''
