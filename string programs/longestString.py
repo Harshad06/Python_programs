@@ -18,3 +18,4 @@ for element in test_list:
 
 # printing result
 print("Maximum length string is : " + result)
+print(len(result))
