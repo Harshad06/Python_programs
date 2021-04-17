@@ -2,7 +2,6 @@
 def decor_result(result_func):
     def distinction(marks):
         for m in marks:
-
             if m>=75:
                 print(f"Passed with Distinction")
         result_func(marks)
