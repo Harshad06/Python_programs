@@ -161,3 +161,8 @@ a=3
 b=1
 print(cmp(a,b))
 '''
+
+"""
+for i in range(0, 5):
+    print(i, end="\n")
+"""
