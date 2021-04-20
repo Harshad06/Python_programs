@@ -73,6 +73,7 @@ for n in range(1, 20):
         print(n, end=" ")
 '''
 
+'''
 old_dict = {'A': 67, 'B': 23, 'C': 45, 'D': 56, 'E': 12, 'F': 69, 'G': 67, 'H': 23}
 
 print(old_dict, end="\n")
@@ -88,3 +89,4 @@ print ("Dictionary after swapping is : ")
 print("keys: values")
 for i in new_dict:
     print(i, " : ", new_dict[i])
+'''
