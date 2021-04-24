@@ -19,6 +19,7 @@ print('*',"abcdef".center(6),'*')
 print('*',"abcdef".center(8),'*')
 print('*',"abcdef".center(9),'*')
 print('*',"abcdef".center(10),'*')
+print('*',"abcdef".center(5),'*')
 '''
 
 #print("xyyzyxyzyxyy".count('xyy',2,11))
@@ -36,7 +37,7 @@ t = 32.00
 [round((x-32)*5/9) for x in t]    #'int' and 'float' object is not iterable
 '''
 
-# print([i.lower() for i in "HELLO"]) 
+#print([i.lower() for i in "HELLO"]) 
 
 '''
 list1 =[1,3,2]
