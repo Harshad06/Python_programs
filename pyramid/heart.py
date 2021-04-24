@@ -10,7 +10,19 @@ for row in range(6):
 '''
 #-------------------------------------------------
 '''
-mystr = input("Enter the string: ")
+mystr = str(input("Enter the string: "))
+len = len(mystr)
+
+for row in range(len):
+    for col in range(0,row+1):
+        print(mystr[col], end="")
+    print()         #--->for new line<---
+'''
+
+#-------------------------------------------------
+
+'''
+mystr = int(input("Enter the string: "))
 len = len(mystr)
 
 for row in range(len):
