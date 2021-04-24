@@ -9,3 +9,5 @@ print('ID of Old List:', id(old_list))
 
 print('New List:', new_list)
 print('ID of New List:', id(new_list))
+
+print(old_list is new_list)
