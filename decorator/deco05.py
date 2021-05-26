@@ -16,4 +16,4 @@ def divide(a,b):
 
 divide(2,5)
 divide(2,0)
-divide(0,5)
+#divide(0,5)
