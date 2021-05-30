@@ -5,6 +5,7 @@ Age = input("Enter your age : ")
 print(Name, Age)
 '''
 
+
 # Now, concept of multiple inputs:
 # Here, split happens on " " ---> a space between name and age
 
