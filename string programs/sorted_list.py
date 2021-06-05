@@ -10,7 +10,7 @@ for item in new_l2:
 
 
 '''
-Here if we reun for loop on 'l1', then each item will be printed each time it is iterated as long as the list runs.
+Here if we run for loop on 'l1', then each item will be printed each time it is iterated as long as the list runs.
 
 So we call for loop on 'new_l2', as here list is sorted --> elements are present only once as 'set' is called along with 'sorted'.
 

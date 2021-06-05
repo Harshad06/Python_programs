@@ -2,7 +2,7 @@
 # Walrus Operator allows us to accomplish 2 tasks at once -
 # Assigning a value to a variable and returning that value as well.
 
-# Syntax ----    [name := expr]
+# Syntax ---->    [name := expr]
 # Here 'expr' is evaluated and assigned to the variable name and that value will also be returned.
 
 print(num:=15)
