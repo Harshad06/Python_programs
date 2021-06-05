@@ -12,3 +12,7 @@ old_list[1][1] = 'AA'
 
 print("Old list:", old_list)
 print("New list:", new_list)
+
+
+# print("Old list:", id(old_list))
+# print("New list:", id(new_list))

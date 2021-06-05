@@ -7,7 +7,7 @@ shallow copy, deep copy,
 """
 """
 dict_01 = {"a": 1, "b": 2, "c": 3 , "d": {"z": 10}}
-dict_02 = dict
+dict_02 = dict_01
 
 print(dict_01)   // value??
 print(dict_02)   // value??
