@@ -8,7 +8,7 @@ new_list = copy.deepcopy(old_list)
 
 old_list.append([4,4,4])
 
-old_list[1][0] = 'BB'
+old_list[1][1] = 'BB'
 
 print("Old list:", old_list)
 print("New list:", new_list)
