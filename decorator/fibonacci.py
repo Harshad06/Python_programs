@@ -33,4 +33,4 @@ while True:
 print(fib_list)
 
 
-# So a generator function returns an generator object that is iterable, i.e., can be used as an Iterators .
+# So a generator function that returns an generator object that is iterable, i.e., can be used as an Iterators .
