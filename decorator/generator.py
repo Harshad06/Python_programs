@@ -33,6 +33,7 @@ print(even_list)
 '''
 Difference between "return" and "yield" keyword :-
 > When value gets returned by a return keyword, so along with "value" the "control" also gets returned and the function ends.
-> When value gets returned by a yield keyword, "value" gets returned but the function does not ends, it gets paused and resumes from the same point.
+> When value gets returned by a yield keyword, "value" gets returned but the function does not ends, it gets paused and resumes 
+  from the same point.
 
 '''

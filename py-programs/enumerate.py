@@ -5,7 +5,6 @@ for index,value in enumerate(data):
     #print(f'The element at #{index} is {value}')
     print(index, value)
 
-
 '''
 my_list = ['a', 'b', 'c']
 
