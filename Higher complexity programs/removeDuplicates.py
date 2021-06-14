@@ -20,3 +20,11 @@ def Remove(duplicate):
 # Driver code
 dup = [2, 4, 10, 20, 5, 2, 20, 4]
 print(Remove(dup))               # [2, 4, 10, 20, 5]
+
+
+
+"""
+duplicate = [2, 4, 10, 20, 5, 2, 20, 4]
+print(list(set(duplicate)))
+
+"""
