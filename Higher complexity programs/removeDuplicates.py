@@ -24,6 +24,8 @@ print(Remove(dup))               # [2, 4, 10, 20, 5]
 
 
 """
+# Using SET -
+
 duplicate = [2, 4, 10, 20, 5, 2, 20, 4]
 print(list(set(duplicate)))
 

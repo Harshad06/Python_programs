@@ -5,7 +5,7 @@
 from itertools import groupby
 
 # initializing list
-test_list = [1, 4, 4, 4, 5, 6, 7, 4, 3, 3, 9]
+test_list = [1, 4, 4, 4, 5, 6, 7, 7, 4, 3, 3, 9, 9, 9, 10]
 
 # printing original list
 print ("The original list is : " + str(test_list))
