@@ -1,6 +1,5 @@
 
-# Program to depict shallow copy
-# in pandas series
+# Program to depict shallow copy in pandas series
 
 # import module
 import pandas as pd
