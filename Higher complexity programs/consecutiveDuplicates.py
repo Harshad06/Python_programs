@@ -1,7 +1,6 @@
 
-# Python3 code to demonstrate
-# removing consecutive duplicates
-# using groupby() + list comprehension
+# Python3 code to demonstrate removing consecutive duplicates using groupby() + list comprehension
+
 from itertools import groupby
 
 # initializing list
