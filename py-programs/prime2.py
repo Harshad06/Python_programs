@@ -14,6 +14,6 @@ def primeGenerator(n):
         num+=1
     return
 
-iter = primeGenerator(20)
-for e in iter:
+it = primeGenerator(10)
+for e in it:
     print(e, end=" ")
