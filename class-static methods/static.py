@@ -1,6 +1,6 @@
 
 class Student():
-    def __init__(self,mark):
+    def __init__(self, mark):
         self.mark=mark
     
     @staticmethod
