@@ -160,7 +160,7 @@ print(~~~~~~~5) #-6
 '''
 a=3
 b=1
-print(cmp(a,b))
+print(cmp(a,b))    # [ if a>b = 1;   if a=b = 0;  if a<b = -1 ]
 '''
 
 """
