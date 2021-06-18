@@ -49,6 +49,8 @@ arr = [1,2,3,4,5,6,7,8,9,10]
 print(functools.reduce(lambda x,y:x+y, arr))
 """
 
+
+"""
 from typing import Counter
 
 
@@ -56,3 +58,26 @@ name = "aabbbcccdddd"
 
 d = Counter(name)
 print(d)
+"""
+
+
+# Python3 code to demonstrate
+# each occurrence frequency using
+# naive method
+
+# initializing string
+test_str = "GeeksforGeeks"
+
+# using naive method to get count
+# of each element in string
+all_freq = {}
+
+for i in test_str:
+	if i in all_freq:
+		all_freq[i] += 1
+	else:
+		all_freq[i] = 1
+
+# printing result
+print ("Count of all characters in GeeksforGeeks is :\n "
+										+ str(all_freq))
