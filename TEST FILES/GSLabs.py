@@ -79,5 +79,4 @@ for i in test_str:
 		all_freq[i] = 1
 
 # printing result
-print ("Count of all characters in GeeksforGeeks is :\n "
-										+ str(all_freq))
+print ("Count of all characters is :\n "+ str(all_freq))

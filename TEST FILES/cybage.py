@@ -76,7 +76,8 @@ def inc(x):
     return x+1
 
 def xyz(func, x):
-    func
+    res = func(x)
+    return res
 '''
 
 '''
