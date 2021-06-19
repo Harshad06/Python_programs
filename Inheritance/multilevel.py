@@ -17,3 +17,6 @@ class C(B):
 
 obj = C('Last')
 print(obj.fname, obj.mname, obj.lname)
+
+
+# Significance of class A()<---- this curly bracket??
