@@ -1,5 +1,5 @@
 
-# Reverse a lits along with each element in that list. 
+# Reverse a list along with each element in that list. 
 
 lst = ['123', '456', '789']
 
@@ -13,6 +13,7 @@ for i in range(length):
 
 
 
+# print(lst[::-1])
 
 # for list of strings -
 '''
