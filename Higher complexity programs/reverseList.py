@@ -6,3 +6,16 @@ length = len(lst)
 
 for i in range(length):
     print(lst[length-i-1], end=" ") 
+
+
+
+
+"""
+lst = ["Apple", "Banana", "Orange", "Kiwi", "Strawberry", "Mango"]
+
+length = len(lst)
+
+for i in range(length):
+    print(lst[length-i-1], end=" ")
+
+"""
