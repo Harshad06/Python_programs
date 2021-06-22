@@ -15,4 +15,7 @@ basic linux commands - grep, -l, etc
 str  = 'hi hello hi hello welcome hello hi hello welcome'
 ocurrences of each variable
 
+loading large files - data??
+using chunks of data in pandas ....at a time 10000 files to be loaded.
+
 '''
