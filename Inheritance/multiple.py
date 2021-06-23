@@ -12,7 +12,7 @@ class B(A):
 
 class C(A):
     def m(self):
-        print("In Class A")
+        print("In Class C")
 
 class D(B,C):
     pass
