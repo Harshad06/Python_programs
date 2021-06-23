@@ -1,7 +1,9 @@
 
-def fun ():
+def fun():
      for i in range(5):
            yield i
+
+fun()
 
 '''
 yield return difference
@@ -17,5 +19,7 @@ ocurrences of each variable
 
 loading large files - data??
 using chunks of data in pandas ....at a time 10000 files to be loaded.
+
+sdlc/stlc
 
 '''
