@@ -1,4 +1,0 @@
-
-from functools import reduce
-
-
