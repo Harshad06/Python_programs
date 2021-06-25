@@ -4,7 +4,7 @@ my_list = ["Apple", "Banana", "Orange", "Kiwi"]
 
 for x in my_list[::-1]:
     print(x)
-    print(list(x))
+    # print(list(x))
 
 
 for y in reversed(my_list):
