@@ -6,7 +6,7 @@ class Student():
     @staticmethod
     def find_min(mark):
         return min(mark,100)
-
+        
 print(Student.find_min(20))
 
 
