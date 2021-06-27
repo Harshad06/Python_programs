@@ -1,4 +1,5 @@
-## JOINS in PANDAS ----> [inner/outer/right/left/index]
+## MERGE Function
+# JOINS in PANDAS ----> [inner/outer/right/left/index]
 
 # importing pandas
 import pandas as pd
