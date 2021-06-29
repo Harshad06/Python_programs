@@ -5,12 +5,13 @@ dictionaries, nested dictionaries, (can a key be dict? in nested dict)
 shallow copy, deep copy,
 
 """
+
 """
 dict_01 = {"a": 1, "b": 2, "c": 3 , "d": {"z": 10}}
 dict_02 = dict_01
 
-print(dict_01)   // value??
-print(dict_02)   // value??
+print(dict_01)   # value??            {'a': 1, 'b': 2, 'c': 3, 'd': {'z': 10}}
+print(dict_02)   # value??            {'a': 1, 'b': 2, 'c': 3, 'd': {'z': 10}}
 """
 
 

@@ -167,3 +167,12 @@ print(cmp(a,b))    # [ if a>b = 1;   if a=b = 0;  if a<b = -1 ]
 for i in range(0, 5):
     print(i, end="\n")
 """
+
+"""
+a = ([1,2,3], 'a','b','c')
+print(type(a))
+
+a[0,2] = 4
+
+print(a)        # TypeError: 'tuple' object does not support item assignment
+"""
