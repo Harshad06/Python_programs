@@ -12,7 +12,7 @@ name employee salary on dataframe -- 3 columns -  a b c , add d colummn 'flag' a
 
 sql queries on joins groupbby max min
 
-basic linux commands - grep, -l, etc
+basic linux commands - grep, -ls, etc
 
 str  = 'hi hello hi hello welcome hello hi hello welcome'
 ocurrences of each variable
