@@ -5,16 +5,16 @@
 import os
 
 # File name
-file = 'file1.csv'
+file = 'text1.txt'
 
 # File location
-location = "./RemoveFile/"
+location = "./RemoveFile_Directory/RemoveFile"
 
 # Path
 path = os.path.join(location, file) 
 
 
 # Remove the file
-# 'file1.csv'
+# 'text1.txt'
 os.remove(path)
-print(f'CSV File successfully removed')
+print(f'Text File successfully removed')
