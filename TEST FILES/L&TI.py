@@ -16,7 +16,7 @@ def thrice(func):
         while n>0:
             print(func(x,y))
             n-=1
-        #return func(x,y)
+        #return 3*func(x,y)
     return inner
 
 @thrice
