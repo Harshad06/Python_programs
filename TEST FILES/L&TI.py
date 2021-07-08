@@ -5,8 +5,13 @@ lst = [3,2,4,6,5,9,12,10]
 
 
 sum 10 for any 2 numbers??
-l1 = [3,2,4,6,5,9,12,10]
+x = [3, 2, 4, 6, 5, 9, 12, 10]
 
+for i in range(len(x)-1):
+    if x[i] + x[i+1] == 10:
+        print(f'Nums are:', x[i], x[i+1])
+
+# Nums are: 4 6
 
 
 

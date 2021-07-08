@@ -3,18 +3,13 @@
 # replace value of None by its current front number
 lst  =  [2,None,3,4,None,None,10,12,None]
 
+x  =  [2,None,3,4,None,None,10,12,None]
 
-def seq(lst):
-    prev_char = None
-    
-    for current in seq:
-        if current == None:
-             current = prev_char
-        else:
-            pass
-        
-    return [lst]
+for i in range(len(x)):
+    if x[i] == None:
+        x[i] = x[i-1]
 
+print(x)
 
 '''
 move all zeroes to the end:-
