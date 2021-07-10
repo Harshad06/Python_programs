@@ -1,5 +1,5 @@
 
-# Return sum three times
+# Return value of sum three times
 
 def thrice(func):
     def inner(x,y):
