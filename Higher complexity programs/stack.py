@@ -13,7 +13,7 @@ print(stack)
 
 # pop() fucntion to pop element from stack in
 # LIFO order
-print('\nElements poped from stack:')
+print('\nElements popped from stack:')
 print(stack.pop())
 print(stack.pop())
 print(stack.pop())
