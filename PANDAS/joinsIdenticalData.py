@@ -24,3 +24,13 @@ DataFrame after inner join:
 4      1 
 5      1
 '''
+
+
+# In case where any df data is "NaN" or "None", then value will be empty column- 
+# df1 = pd.DataFrame([NaN, NaN], columns=['col_A'] )
+'''
+DataFrame after inner join: 
+ Empty DataFrame
+Columns: [col_A]
+Index: []       
+'''
