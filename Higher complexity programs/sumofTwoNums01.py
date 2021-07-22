@@ -5,7 +5,7 @@ x = [3, 2, 4, 6, 5, 9, 1, 12, 10]
 
 for i in range(len(x)-1):
     if x[i] + x[i+1] == 10:
-        print(f'Numbers are:', x[i], '&', x[i+1])
+        print(f'Numbers are: {x[i]} & {x[i+1]}')
 
 
 

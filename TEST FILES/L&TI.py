@@ -44,4 +44,7 @@ class Dog(Animal,Mammal):
     pass 
 
 obj = Dog()
+
+obj.speak()
+print("----------------------")
 print(obj.speak())
