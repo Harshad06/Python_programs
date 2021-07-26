@@ -5,8 +5,8 @@ b = {2:'xyz'}
 del a           # -------> dict a deleted
 b.clear()       # -------> dict b contents cleared
 
-print(a)
-print(b)
+#print(a)
+#print(b)
 
 
 # ------------------------------------------------
@@ -28,3 +28,5 @@ people[1]['NAAM'] = people[1]['Name']
 del people[1]['Name']
 
 print(people)
+
+print(people[1].values())
